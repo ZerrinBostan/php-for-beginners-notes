@@ -25,7 +25,7 @@ Kod şu değişkenleri kullanır:
 - Kitap ismi için `name`,
 - Kitabın okunma bilgisi için `read` değişkeni tanımlanır.
 
-Ardından, `read` değişkeninin boolean (true/false) değerine göre mesajı düzenlemek için if-else koşulları kullanılır. Eğer `read` değeri true ise, "You have read $name" mesajını gösterir. Eğer false ise, "You have NOT read $name" mesajını gösterir. bu işlemi gerçekleştiren PHP kodu:
+Ardından, `read` değişkeninin boolean (true/false) değerine göre mesajı düzenlemek için if-else koşulları kullanılır. Eğer `read` değeri true ise, "You have read $name" mesajını gösterir. Eğer false ise, "You have NOT read $name" mesajını gösterir. Bu işlemi gerçekleştiren PHP kodu:
 
 ```php
 <?php
