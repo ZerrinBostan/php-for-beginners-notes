@@ -1,23 +1,23 @@
-# Video Notları 1-4/tr
+# Video Notes 1-4/en
 
-1. **Php Blok İçeriği**
-   - Php blogunun içeriği, HTML yerine PHP olarak ele alınmalıdır.
+1. **The Content in the PHP Blog**
+   - The content written within the PHP blog should be considered in PHP, not as HTML.
 
-2. **Ui'ya Veri Aktarma İşlemi İçin Farklı Yaklaşımlar**
-   - İlk adımda, bir değişken oluşturmanız gerekmektedir. Örnek olarak:
+2. **Different Approaches for Transferring Data to UI**
+   - In the first step, you need to create a variable. For example:
      ```php
      $greeting = "Hello";
      ```
-   - Daha sonra, "Hello Everyone" ifadesini ekrana yazdırmak için şu yöntemi kullanabilirsiniz:
+   - Then, to display the phrase "Hello Everyone" on the screen, you can use the following method:
      ```php
      echo $greeting . " " . "Everyone";
      ```
-   - Daha kısa bir yol denemek isterseniz, aşağıdaki kodu kullanabilirsiniz:
+   - If you want to try a shorter method, you can use the following code:
      ```php
      echo $greeting . " Everyone";
      ```
 
-3. **Tek Tırnak ve Çift Tırnak Kullanımı**
-   - Tek tırnak ve çift tırnak kullanımı arasındaki farkı aşağıdaki örneklerle göz önünde bulundurabilirsiniz:
-     - `'$greeting Everyone'` -> Bu şekilde kullanıldığında, değişkeni algılamaz ve ekrana `"$greeting Everyone"` şeklinde yansıtır.
-     - `"$greeting Everyone"` -> Çift tırnak kullanıldığında, değişkeni algılar ve ekrana `"Hello Everyone"` olarak yansıtır.
+3. **Single and Double Quotes Usage**
+   - You can consider the difference between single and double quotes with the following examples:
+     - `'$greeting Everyone'` -> When used in this way, it doesn't recognize the variable and displays `"$greeting Everyone"` on the screen.
+     - `"$greeting Everyone"` -> When double quotes are used, it recognizes the variable and displays "Hello Everyone" on the screen.
