@@ -44,7 +44,7 @@ if ($read) {
 </h1>
 ```
 
-### 3. ECHO İfadesinin Alternatif Kullanımı"
+### 3. ECHO İfadesinin Alternatif Kullanımı
 
 Kod içindeki `<?php echo $name; ?>` kullanımının kısaltılmış hali, `<?= $name; ?>` şeklindedir. 
 
