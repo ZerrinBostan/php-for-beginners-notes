@@ -30,15 +30,16 @@
         /*
           ┌─────────────────────────────────────────────────────────────────────────────┐
           │         foreach ($books as $book) {                                         │
-          │             // Method 1: Printing the book name using "echo"               │
+          │             // Method 1: Printing the book name using "echo"                │
           │             echo "<li>" . $book . "</li>";                                  │
           │                                                                             │
-          │             // Method 2: Printing the book name using short syntax           │
+          │             // Method 2: Printing the book name using short syntax          │
           │             echo "<li>{$book}™ </li>";                                      │
           │                                                                             │
           │             // Method 3: Displaying books in a more complex structure       │
-          │             echo "<li><div>{$book}™</div> </li>";                           │
+          │             echo "<li><div>{$book}™</div></li>";                            │
           │         }                                                                   │
+          │         ?>                                                                  │
           └─────────────────────────────────────────────────────────────────────────────┘
          */
 
